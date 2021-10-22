@@ -1,0 +1,18 @@
+.users-item {
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.users-item__divider {
+    display: flex;
+    flex-direction: column;
+    border-width: 2px 0;
+    border-style: dashed;
+    border-color: grey;
+    padding: 10px;
+}

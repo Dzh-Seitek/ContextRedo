@@ -1,0 +1,30 @@
+.post-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+    background-color: #585858;
+    color: #fff;
+    border-bottom: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    width: 500px;
+}
+.post-item__title span, .post-item__body span {
+    font-weight: bold;
+    font-size: 16px;
+}
+.post-item__title {
+    margin: 20 0px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.post-item__user-info {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    color: wheat;
+    margin-top: 15px;
+    
+    
+}
